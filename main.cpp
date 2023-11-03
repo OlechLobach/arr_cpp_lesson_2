@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ctime>
+
 
 int main() {
     const int rows = 2;
@@ -7,7 +7,7 @@ int main() {
     int arr[rows][cols];
 
  
-    std::srand(static_cast<unsigned>(std::time(nullptr)));
+    srand(static_cast<unsigned>(time(0)));
 
    
     for (int i = 0; i < rows; i++) {
