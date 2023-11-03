@@ -12,7 +12,7 @@ int main() {
     int arr2[rows2][cols2];
 
 
-    srand(time(0));
+   srand(static_cast<unsigned>(time(0)));
 
     for (int i = 0; i < rows1; i++) {
         for (int j = 0; j < cols1; j++) {
