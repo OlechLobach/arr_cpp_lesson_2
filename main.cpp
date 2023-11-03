@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ctime> 
+
 
     int main() {
         const int rows = 3;
@@ -8,7 +8,7 @@
         int arr[rows][cols];
 
 
-        std::srand(static_cast<unsigned>(std::time(nullptr)));
+      srand(static_cast<unsigned>(time(0)));
 
 
         std::cout << "Randomly generated array:" << std::endl;
