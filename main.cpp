@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <ctime>
 
 int main() {
     const int rows = 2;
