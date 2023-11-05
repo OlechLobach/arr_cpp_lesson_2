@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+#include <ctime>
 
 int main() {
     const int col = 5;
